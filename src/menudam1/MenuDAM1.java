@@ -5,6 +5,8 @@
  */
 package menudam1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author DAM110
@@ -16,6 +18,33 @@ public class MenuDAM1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int opcion;
+        Scanner teclado = new Scanner(System.in);
+        do {
+            System.out.println("--- MENU ENTORNOS DE DESARROLLOS ---");
+            System.out.println("- Seleccione una de las siguiente opciones tecleando 1, 2, 3 o 4 -");
+            System.out.println("1. .");
+            System.out.println("2. .");
+            System.out.println("3. .");
+            System.out.println("4. Salir.");
+            opcion = teclado.nextInt();
+            switch (opcion) {
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+                    break;
+                default:
+                    System.out.println("No has seleccionado un número entre 1 y 4");
+            }
+        } while (opcion != 4);
+        
     }
     
 }
