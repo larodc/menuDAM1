@@ -28,11 +28,12 @@ public class MenuDAM1 {
             System.out.println("3. .");
             System.out.println("4. .");
             System.out.println("5. .");
-            System.out.println("6. Salir.");
+            System.out.println("6. .");
+            System.out.println("7. Salir.");
             opcion = teclado.nextInt();
             switch (opcion) {
                 case 1:
-
+                    
                     break;
                 case 2:
 
@@ -46,10 +47,12 @@ public class MenuDAM1 {
                     break;
                 case 6:
                     break;
+                case 7:
+                    break;
                 default:
-                    System.out.println("No has seleccionado un número entre 1 y 6");
+                    System.out.println("No has seleccionado un número entre 1 y 7");
             }
-        } while (opcion != 6);
+        } while (opcion != 7);
         
     }
     
