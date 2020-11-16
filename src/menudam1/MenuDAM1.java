@@ -77,6 +77,10 @@ public class MenuDAM1 {
                 case 5:
                     break;
                 case 6:
+                int x;    
+                    x= (int) Math.floor(Math.random()*1001);
+                    System.out.println("Hemos generado un número aleatorio entre 1 y 1000 que es:"+x)
+                    break;
                     break;
                 case 7:
                     break;
