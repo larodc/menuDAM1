@@ -77,7 +77,17 @@ public class MenuDAM1 {
                 case 5:
                     break;
                 case 6:
-                    break;
+                int x;    
+                    x= (int) Math.floor(Math.random()*1001);
+                    System.out.println("Hemos generado un número aleatorio entre 1 y 1000 que es:"+x)
+                    if(x < 10){
+                System.out.println("Tiene 1 cifras");
+            }if(x >=10 && x<100){
+                System.out.println("Tiene 2 cifras");
+            }if(x >=100 && x<1000){
+                System.out.println("Tiene 3 cifras");
+            }
+                break;
                 case 7:
                     break;
                 default:
